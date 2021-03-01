@@ -26,7 +26,14 @@ falseAnswer :
          type: String,
          required: true,
          }
-    ]
+    ],
+    point:{
+
+            default:10,
+            type: Number,
+            trim: true,
+            minlenght: 1,
+    }
   });
 
 

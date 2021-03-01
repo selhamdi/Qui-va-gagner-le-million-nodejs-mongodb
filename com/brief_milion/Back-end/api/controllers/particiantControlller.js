@@ -51,39 +51,7 @@ exports.update =  async function(req,res){
     });   
     }
 
-//    router.post('/sendMail', function (req, res) {
-//     res.json({
-//         message: 'email send',
-//     });
 
-    
-// // create reusable transporter object using the default SMTP transport
-// let transporter = nodemailer.createTransport({
-//     service: 'gmail',
-//    auth: {
-//       user: 'salimaeii1997@gmail.com',
-//       pass: '0649018266sa'
-//    }
-// });
-   
-
-//     // setup email data with unicode symbols
-//     var mailOptions = {
-//         from: 'salimaeii1997@gmail.com', 
-//         to: 'salimaeii1997@gmail.com',         
-//         subject: 'test de corona', 
-//         text: 'votre test et positif'
-//     };
- 
-//     // send mail with defined transport object
-//     transporter.sendMail(mailOptions, function (error, info) {
-//         if (err) {
-//                   console.log(err)
-//                 } else {
-//                   console.log(sendMail);
-//                 }
-//     });
-// }); 
 
 
 

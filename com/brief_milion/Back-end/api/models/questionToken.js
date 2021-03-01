@@ -3,11 +3,11 @@ const mongoose = require("mongoose");
 const questionTokenSchema = new mongoose.Schema({
   id_question: {
     type: mongoose.Types.ObjectId,
-    ref: "questions",
+    ref: "Question",
   },
   id_participant: {
     type: mongoose.Types.ObjectId,
-    ref: "participant",
+    ref: "Participant",
   },
   participant_answer: {
     type: String,

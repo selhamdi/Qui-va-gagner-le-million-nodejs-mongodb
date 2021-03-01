@@ -3,15 +3,15 @@ const mongoose = require("mongoose");
 const roundSchema = new mongoose.Schema({
   id_group_members: {
     type: mongoose.Types.ObjectId,
-    ref: "groupmembers",
+    ref: "Groupe",
   },
   id_question: {
     type: mongoose.Types.ObjectId,
-    ref: "questions",
+    ref: "Question",
   },
   id_question_token: {
     type: mongoose.Types.ObjectId,
-    ref: "questiontokens",
+    ref: "QuestionToken",
   },
   is_answered: {
     type: Boolean,

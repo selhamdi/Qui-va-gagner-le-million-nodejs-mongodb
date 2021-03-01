@@ -2,7 +2,7 @@ let express = require('express');
 let bodyParser = require('body-parser');
 let app = express();
 
-pp.use(bodyParser.urlencoded({
+app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(bodyParser.json());
@@ -23,7 +23,7 @@ app.use('/User', userrouter)
 app.use('/Participant', participantrouter)
 app.use('/Question', questionrouter)
 app.use('/Groupe', grouperouter)
-.use('/round', roundRoutes);
+// app.use('/round', roundRoutes);
 // app.use('/gifts', giftsrouter);
 
 
